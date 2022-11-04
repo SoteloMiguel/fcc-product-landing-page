@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>SeJu Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" />
+    <link href="./style/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="./img/SeJuIcono2.svg" alt="logo de la compania SeJu" id="header-img">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link"href="#description-container">Características</a></li>
+          <li><a class="nav-link" href="#video">Funcionamiento</a></li>
+          <li><a class="nav-link" href="#price-container">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div id="div-form">
+      <p id="p-form">Suscríbite a nuestro boletín </p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input type="email" id="email" name="email" placeholder="Ingrese su email..." required>
+        <input type="submit" id="submit" value="Enviar!">
+      </form>
+    </div>
+     
+  
+  <main>
+    <section id="description-container">
+        <article class="description-article">
+            </p>
+            <i class="fas fa-list sect-img"></i>
+          <!--<img src="https://cdn.icon-icons.com/icons2/2483/PNG/512/product_information_management_icon_149893.png" alt="" class="sect-img">-->
+          <div>
+            <h1>Características de las tazas</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Placeat suscipit cum hic, maxime debitis tempora nihil sint,
+              ipsam tempore, eius explicabo pariatur eveniet fuga delectus.
+            </p>
+          </div>
+        </article>
+      
+
+      <article class="description-article">
+        <i class="fas fa-cogs sect-img"></i>
+        <!--<img src="https://cdn.icon-icons.com/icons2/2483/PNG/512/material_information_icon_149913.png" alt="" class="sect-img">-->
+        <div>
+          <h1>Materiales utilizados</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Placeat suscipit cum hic, maxime debitis tempora nihil sint,
+            ipsam tempore, eius explicabo pariatur eveniet fuga delectus.
+          </p>
+        </div>
+      </article>
+      
+      <article class="description-article">
+        <i class="fas fa-users sect-img"></i>
+        <!--<img src="https://cdn.icon-icons.com/icons2/2483/PNG/512/organization_icon_149905.png" alt="" class="sect-img">-->
+        <div>
+          <h1>Satisfacción del Cliente</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Placeat suscipit cum hic, maxime debitis tempora nihil sint,
+            ipsam tempore, eius explicabo pariatur eveniet fuga delectus.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <div id="div-video">
+      <iframe id="video" src="https://www.youtube.com/embed/u8Mo6ubUTIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <P><em>Estampamos Tus Ideas!</em></P>
+    </div>
+
+    <section id="price-container">
+      <article id="article-1" class="article">
+        
+          <img id="img1" class="img" src="https://images.unsplash.com/photo-1454329001438-1752daa90420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
+          alt="Imagen de una mujer sosteniendo una taza de laton estampada con letras negras">
+          <h3>Taza metálica</h3>
+          <p>$10.00</p>
+          <input class="input" type="button" value="Comprar">
+      </article>
+      <article id="article-2" class="article">
+        
+          <img id="img2" class="img" src="https://images.unsplash.com/photo-1527784011719-3349bf049cf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          alt="Imagen de una taza  estampada fondo naranja y texto en color dorado">
+          <h3>Taza de cerámica</h3>
+          <p>$15.00</p>
+          <input class="input"  type="button" value="Comprar">
+      </article>
+      <article id="article-3" class="article">
+        
+          <img id="img3" class="img" src="https://images.pexels.com/photos/3867000/pexels-photo-3867000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+           alt="imagen de un par de tazas en una mesa con una estampa tematica de star wars">
+          <h3>Juego de tazas de cerámica</h3>
+          <p>$28.00</p>
+          <input  class="input" type="button" value="Comprar">
+        
+      </article>
+    </section>
+
+  </main>
+  
+    <footer>
+      <a id="footer-a" href="#">Inicio</a>
+      <p>SeJu Estampados, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
